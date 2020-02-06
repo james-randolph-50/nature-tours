@@ -1,0 +1,23 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/james-randolph-50/nature-tours.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/james-randolph-50/nature-tours/issues"
+  },
+  "homepage": "https://github.com/james-randolph-50/nature-tours#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
