@@ -20,15 +20,10 @@
 900-1200px    Tablet (landscape)
 1200-1800px   (Normal style for Desktop apply)
 1800+         Big Desktop
-*/
 
-@mixin respond-phone {
-    @media (max-width: 600px) {
-        @content
-    };
-}
+ORDER: Base + typography > general layout + grid > page layout > components
 
-/*
+
 $breakpoint argument options:
 - phone
 - tab-port
