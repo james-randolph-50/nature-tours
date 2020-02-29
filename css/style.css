@@ -608,6 +608,10 @@ body {
   .popup__left {
     width: 33.333333%;
     display: table-cell; }
+    @media (max-width: 56.25em) {
+      .popup__left {
+        width: 0%;
+        display: none; } }
   .popup__right {
     width: 66.666667%;
     display: table-cell;

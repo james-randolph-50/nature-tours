@@ -26,6 +26,11 @@
     &__left {
         width: 33.333333%;
         display: table-cell;
+
+        @include respond(tab-port) {
+            width: 0%;
+            display:none;
+        }
     }
 
     &__right {
